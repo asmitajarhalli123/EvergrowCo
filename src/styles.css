@@ -1,1 +1,244 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+font-family: 'Inter', sans-serif;
+
+}
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    border: #ecebeb 2px solid ;
+    position: fixed;
+    background-color: white;
+}
+.logo {
+    height: 15vh;
+    width: 200px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    margin-left: 90px;
+    
+}
+
+.right{
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    height: 15vh;
+    width: 50vw;
+    margin-left: 30%;
+}
+
+i{
+    background-color: white;
+    color:#839705;
+    border-radius: 50%;
+}
+
+input{
+    
+    border: none;
+    margin-left: 3px;
+    height: 30px;
+    width: 200px;
+    border-radius: 9px;
+    background-color:#D8E983;
+    color: #000000;
+    border: #ffffff 2PX solid;
+
+}
+
+.profile{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background-image: url(profile.png);
+    background-size: cover;
+    border: #839705 2PX solid;
+
+}
+
+.search2{
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    height: 50px;
+    width: 180px;
+   
+}
+
+.container{
+    height: 15vh;
+    width:100%;
+    color:#000000;
+   margin-top: 7%;
+   align-items: center;
+   justify-content:space-between;
+   display: flex;
+   font-family:sans-serif;
+   font-weight:normal;
+
+}
+.my{
+    padding-left: 17%;
+}
+
+.add{
+    height: 40px;
+    width: 160px;
+    background-color:#839705;
+    color: white;
+    border: none;
+    border-radius:9px;
+  margin-right: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.task{
+    margin-left: 20%;
+    font-family: 'Inter', sans-serif;
+    margin-left: 50%;
+
+}
+
+ .table-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    max-width: 900px;
+    margin: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    background: #f8f7f3;
+  }
+
+  th {
+    text-align: left;
+    padding: 18px 24px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8c8c86;
+    font-weight: 600;
+  }
+
+  td {
+    padding: 20px 24px;
+    border-top: 1px solid #efeee9;
+    color: #3a3a36;
+    font-size: 14px;
+  }
+
+  tbody tr:hover {
+    background: #faf9f5;
+  }
+
+  
+  td:first-child {
+    font-weight: 600;
+  }
+
+  .task1{
+    margin-top: 8%;
+    margin-left: 20%;
+  }
+
+
+  .section-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 50%;
+    padding-top: 10%;
+  }
+
+  .section-title span {
+    color: #5dbb63;
+    font-size: 20px;
+  }
+
+  .plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    background-size: cover;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  }
+
+  .card img {
+    width: 100%;
+    height: 350px;
+   
+    background-size: cover;
+    background: #eee;
+  }
+
+  .card-body {
+    padding: 16px 18px 20px;
+  }
+
+  .plant-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #2f2f2f;
+    margin-bottom: 6px;
+  }
+
+  .water-info {
+    font-size: 13px;
+    color: #7a7a74;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .water-info span {
+    color: #5aa9ff;
+  }
+
+  /* Placeholder upload card */
+  .upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    background: #e9e7e2;
+    font-size: 40px;
+    color: #a8a7a2;
+  }
+
+  .container1{
+    margin-top: 5%;
+  }
+
+
+
+

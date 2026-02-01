@@ -6,8 +6,121 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <app-root></app-root>
+  <div class="navigation">
+    <div class="logo">
+         <img src="logo.jpg" alt="">
+    </div>
+
+    <div class="right">
+      <div class="serach">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search plants...">
+      </div>
+      
+      <div class="search2">
+      <i class="fa-solid fa-bell" class="not"></i>
+      <div class="profile"></div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <h1 class="my">My Plants</h1>
+      <button class="add"><i class="fa-solid fa-plus"></i>
+Add New Plant</button>
+    </div>
+
+    <p class="task"><i class="fa-solid fa-calendar"></i>
+Upoming Tasks</p>
+
+<div class="container1">
+  <div class="table-card">
+  <table>
+    <thead>
+      <tr>
+        <th>Plant</th>
+        <th>Watering</th>
+        <th>Sunlight</th>
+        <th>Fertilization</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fiddle Leaf Fig</td>
+        <td>In 2 days</td>
+        <td>Bright, indirect</td>
+        <td>In 3 weeks</td>
+      </tr>
+      <tr>
+        <td>Snake Plant</td>
+        <td>In 5 days</td>
+        <td>Low to bright, indirect</td>
+        <td>In 6 weeks</td>
+      </tr>
+      <tr>
+        <td>Monstera</td>
+        <td>In 3 days</td>
+        <td>Bright, indirect</td>
+        <td>In 4 weeks</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="container2">
+  <div class="section-title">
+  <span>🌿</span> All Plants
+</div>
+
+<div class="plant-grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/1e/df/50/1edf509da54a7fbfe8a527deeabf00e7.jpg" alt="Fiddle Leaf Fig">
+    <div class="card-body">
+      <div class="plant-name">Fiddle Leaf Fig</div>
+      <div class="water-info"><span>💧</span> Water in 2 days</div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/59/1b/b6/591bb68c7be1a39846b131a6870dbf4d.jpg">
+    <div class="card-body">
+      <div class="plant-name">Snake Plant</div>
+      <div class="water-info"><span>💧</span> Water in 5 days</div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/d8/c5/d4/d8c5d49c8f17804245283dc0840e39ce.jpg" alt="Monstera">
+    <div class="card-body">
+      <div class="plant-name">Monstera</div>
+      <div class="water-info"><span>💧</span> Water in 3 days</div>
+    </div>
+  </div>
+
+  <!-- Upload Card -->
+  <div class="card">
+    <div class="upload">🖼️</div>
+    <div class="card-body">
+      <div class="plant-name">Add</div>
+      <div class="water-info"><span>💧</span> Water in 4 days</div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
 </body>
 </html>
