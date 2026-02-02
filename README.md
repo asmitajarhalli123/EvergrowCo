@@ -1,59 +1,39 @@
-# EvergrowCo
+<h2 align="center">🌿 EverGrow Co.</h2>
+<br>
+<h3>Your Digital Plant Growth Companion</h3>
+<br>
+<p>EverGrow Co. is a plant growth tracker website designed to help plant lovers care for their plants in a smart and organized way. It works like a digital diary where you can record plant details, track growth, and manage care routines easily.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+Grow your plants. Track their journey. Never miss a care day 🌱</p>
+<br>
+<br>
+<br>
+<h2>🌼 What This Website Does</h2>
 
-## Development server
+EverGrow Co. helps you:
 
-To start a local development server, run:
+🌿 Add and manage your plants
 
-```bash
-ng serve
-```
+💧 Track watering schedules
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📝 Write notes about plant health
 
-## Code scaffolding
+📈 Monitor growth progress
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🖼️ View plant images
 
-```bash
-ng generate component component-name
-```
+📱 Use the app smoothly on mobile and desktop
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<br>
+<br>
+<br>
 
-```bash
-ng generate --help
-```
+<B>👨‍💻 Author </B>
 
-## Building
+Asmita Jarhalli<br>
+Passionate about building creative and user-friendly web apps 📱
+<br>
+<br>
+<h2>Growing plants is caring for life.
+EverGrow Co. makes every leaf count. 🍃</h2>
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
