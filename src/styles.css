@@ -105,8 +105,9 @@ input{
     margin-left: 20%;
     font-family: 'Inter', sans-serif;
     margin-left: 50%;
-
+    opacity: 50%;
 }
+
 
  .table-card {
     background: #ffffff;
@@ -297,6 +298,10 @@ input{
 
         button:hover {
             background-color: #2f855a;
+        }
+
+        .my{
+          opacity: 50%;
         }
 
 
