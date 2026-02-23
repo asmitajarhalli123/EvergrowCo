@@ -15,7 +15,7 @@ font-family: 'Inter', sans-serif;
     display: flex;
     border: #ecebeb 2px solid ;
     position: fixed;
-    background-color: white;
+    background-color:white;
 }
 .logo {
     height: 15vh;
@@ -304,5 +304,36 @@ input{
           opacity: 50%;
         }
 
+        .containertext{
+          margin-top: 10%;
+         
+          height: 60vh;
+          width: 90%;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          padding-left: 10%;
+        
+        }
+
+        .containertext .cardbox{
+          background-color: #2d3748;
+          height: 90%;
+          width: 30%;
+        }
+
+        .containertext .left {
+          width: 50%;
+          min-height: 120%;
+          align-items: center;
+          justify-content: space-evenly;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .containertext .left .grow{
+          color: rgb(6, 51, 6);
+          font-size: 400%;
+        }
 
 
