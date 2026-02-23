@@ -312,7 +312,7 @@ input{
           align-items: center;
           display: flex;
           justify-content: space-between;
-          padding-left: 10%;
+          
         
         }
 
@@ -329,11 +329,46 @@ input{
           justify-content: space-evenly;
           display: flex;
           flex-direction: column;
+          margin-top: 10%;
         }
 
         .containertext .left .grow{
           color: rgb(6, 51, 6);
-          font-size: 400%;
+          font-size: 500%;
+          padding-left: 5%;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+
+         .containertext .left .track{
+          color: rgb(24, 136, 24);
+          font-family: 'Playfair Display', serif;
+          font-style: italic;
+         font-weight: 900;
+        }
+
+        .containertext .left .green{
+         
+          margin-right: 30%;
+          height: 30%;
+          color: #000000;
+          border-radius: 5%;
+          width: 40%;
+          backdrop-filter: 90%;
+
+        }
+
+        .containertext .left .para{
+          margin-left: 10%;
+          letter-spacing: 0.3px;
+          word-spacing: 1.5px;
+          line-height: 150%;
+          font-size: 120%;
+          color: #839705;
+          opacity: 65%;
+        }
+
+
+
+
 
 
