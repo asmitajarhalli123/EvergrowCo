@@ -40,7 +40,15 @@
     <h1 class="grow">Grow,<br><span class="track">Track & Thrive</span><br> Together</h1>
     <p class="para">Every plant has a story. Track their journey, learn their needs,<br> and watch your garden come alive — one leaf at a <br>time.</p>
     </div>
-    <div class="cardbox"></div>
+
+
+    <div class="cardbox">
+             <h1>Desert Cactus</h1>
+              <p>💧 Water in 5 days</p>
+              <p>☀️ Sunlight: Bright, indirect</p>
+              
+    </div>
+
   </div>
 
 
@@ -138,7 +146,7 @@ Upoming Tasks</p>
     </div>
   </div>
 
-   <!-- Card 4 -->
+   <!-- Card 4 -->  
   <div class="card" ng-show="isSubmit" ng-repeat="p in plants">
     <img src="{{p.image}}" alt="Monstera">
     <div class="card-body">
@@ -146,7 +154,7 @@ Upoming Tasks</p>
       <div class="water-info"><span>💧</span> Water in {{p.water}} days</div>
     </div>
   </div>
-  <h1>say hello</h1>
+  
 </div>
 
 <script>
@@ -178,6 +186,33 @@ app.controller("myctrl", function($scope) {
       $scope.isSubmit = false;
 
 });
+
+
+
+
+gsap.from(".navigation", {
+   duration: 2,
+    y: -50, 
+    opacity: 0, 
+    ease: "power2.out" 
+  });
+
+gsap.from(".containertext .left", {
+  duration: 2,
+    x: -100, 
+    opacity: 0, 
+    ease: "power2.out",
+    delay: 2
+});
+
+gsap.from(".containertext .cardbox", {
+  duration: 2,
+    x: 100, 
+    opacity: 0, 
+    ease: "power2.out",
+    delay: 2.5
+});
+
 
 </script>
 

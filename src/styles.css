@@ -18,7 +18,7 @@ font-family: 'Inter', sans-serif;
     background-color:white;
 }
 .logo {
-    height: 15vh;
+    height: 13vh;
     width: 200px;
     background-image: url(logo.jpg);
     background-size: cover;
@@ -59,7 +59,7 @@ input{
     height: 47px;
     width: 47px;
     border-radius: 50%;
-    background-image: url(profile.png);
+
     background-size: cover;
     border: #839705 2PX solid;
 
@@ -243,7 +243,7 @@ input{
 
 
 
-/* gpt */
+
 
 .formCont {
             background: #ffffff;
@@ -317,10 +317,30 @@ input{
         }
 
         .containertext .cardbox{
-          background-color: #2d3748;
-          height: 90%;
-          width: 30%;
+          background-color: #A2CB8B;
+          height: 60%;
+          width: 25%;
+          border-radius: 16px;
+          
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          margin-right: 6%;
         }
+  
+       .containertext .cardbox:hover{
+        background-color:#428447;
+         
+          border-radius: 16px;
+          
+          transform: rotate(2deg);
+          transition: all 0.3s ease-in-out;
+          box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+       }
+       
+       
+
 
         .containertext .left {
           width: 50%;
