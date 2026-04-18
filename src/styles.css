@@ -328,12 +328,20 @@ input{
           flex-direction: column;
           margin-right: 6%;
         }
+
+          .containertext .cardbox h1{
+            color: white;
+          }
+
+            .containertext .cardbox p{
+              color:rgb(35, 65, 4);
+            }
   
        .containertext .cardbox:hover{
         background-color:#428447;
          
           border-radius: 16px;
-          
+           color:chartreuse;
           transform: rotate(2deg);
           transition: all 0.3s ease-in-out;
           box-shadow: 0 10px 24px rgba(0,0,0,0.08);
