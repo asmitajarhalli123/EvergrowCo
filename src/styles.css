@@ -331,10 +331,13 @@ input{
 
           .containertext .cardbox h1{
             color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           }
 
             .containertext .cardbox p{
               color:rgb(35, 65, 4);
+              font-size: larger;
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
   
        .containertext .cardbox:hover{
